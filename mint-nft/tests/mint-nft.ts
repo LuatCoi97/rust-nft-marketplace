@@ -7,7 +7,7 @@ describe("nft-marketplace", async () => {
   
   const testNftTitle = "Beta";
   const testNftSymbol = "BETA";
-  const testNftUri = "https://raw.githubusercontent.com/LuatCoi97/rust-nft-marketplace/main/mint-nft/assets/example.json";
+  const testNftUri = "https://raw.githubusercontent.com/Coding-and-Crypto/Solana-NFT-Marketplace/master/assets/example.json";
 
   const provider = anchor.AnchorProvider.env()
   const wallet = provider.wallet as anchor.Wallet;
